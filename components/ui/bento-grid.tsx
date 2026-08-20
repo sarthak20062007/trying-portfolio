@@ -1,5 +1,6 @@
 import { cn } from "@/lib/utils";
 import { GlowingEffect } from "./glowing-effect";
+import SpotlightCard from "./spotlight-card";
 
 export const BentoGrid = ({
   className,
@@ -34,18 +35,20 @@ export const BentoGridItem = ({
   icon?: React.ReactNode;
 }) => {
   return (
-    <div
+    <SpotlightCard
+      spotlightColor="rgba(255, 255, 255, 0.03)"
       className={cn(
-        "group/bento relative row-span-1 flex flex-col justify-between overflow-hidden rounded-2xl border border-white/5 bg-white/[0.02] p-6 transition-all duration-300 hover:border-white/10 hover:bg-white/[0.04]",
+        "group/bento relative row-span-1 flex flex-col justify-between rounded-2xl border border-white/5 bg-neutral-950 p-6 transition-all duration-300 hover:bg-neutral-900/50",
         className,
       )}
     >
       <GlowingEffect 
-        spread={40}
+        spread={60}
         glow={true}
         disabled={false}
-        proximity={64}
-        inactiveZone={0.01}
+        proximity={128}
+        inactiveZone={0.1}
+        borderWidth={2}
       />
       <div className="relative z-10 flex-1 w-full overflow-hidden rounded-xl bg-background/50 mb-6">
         {header}
@@ -61,6 +64,6 @@ export const BentoGridItem = ({
           {description}
         </div>
       </div>
-    </div>
+    </SpotlightCard>
   );
 };
