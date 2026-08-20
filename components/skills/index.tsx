@@ -10,38 +10,25 @@ const LogoLoop = dynamic<any>(
   { ssr: false }
 );
 
-// Skill categories with technologies
 const frontendSkills = [
   { node: <span>React</span>, title: "React" },
   { node: <span>Next.js</span>, title: "Next.js" },
   { node: <span>TypeScript</span>, title: "TypeScript" },
   { node: <span>JavaScript</span>, title: "JavaScript" },
   { node: <span>Tailwind CSS</span>, title: "Tailwind CSS" },
-  { node: <span>HTML5</span>, title: "HTML5" },
-  { node: <span>CSS3</span>, title: "CSS3" },
-  { node: <span>Redux</span>, title: "Redux" },
 ];
 
 const backendSkills = [
   { node: <span>Node.js</span>, title: "Node.js" },
-  { node: <span>Express</span>, title: "Express" },
   { node: <span>Python</span>, title: "Python" },
-  { node: <span>FastAPI</span>, title: "FastAPI" },
   { node: <span>PostgreSQL</span>, title: "PostgreSQL" },
-  { node: <span>MongoDB</span>, title: "MongoDB" },
-  { node: <span>Firebase</span>, title: "Firebase" },
-  { node: <span>REST APIs</span>, title: "REST APIs" },
 ];
 
 const toolsAndAI = [
-  { node: <span>Git</span>, title: "Git" },
-  { node: <span>Docker</span>, title: "Docker" },
-  { node: <span>Vercel</span>, title: "Vercel" },
-  { node: <span>OpenAI</span>, title: "OpenAI" },
-  { node: <span>LangChain</span>, title: "LangChain" },
-  { node: <span>TensorFlow</span>, title: "TensorFlow" },
-  { node: <span>Figma</span>, title: "Figma" },
-  { node: <span>Linux</span>, title: "Linux" },
+  { node: <span>AI / Machine Learning</span>, title: "AI / Machine Learning" },
+  { node: <span>Cybersecurity</span>, title: "Cybersecurity" },
+  { node: <span>Burp Suite</span>, title: "Burp Suite" },
+  { node: <span>Git / GitHub</span>, title: "Git / GitHub" },
 ];
 
 const fadeUp = {

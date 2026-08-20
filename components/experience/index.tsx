@@ -15,66 +15,67 @@ const experienceData = [
     title: "Present",
     content: (
       <div>
-        <h4 className="text-xl font-bold text-foreground mb-1">Senior AI Engineer</h4>
+        <h4 className="text-xl font-bold text-foreground mb-1">Cybersecurity / Security-Focused Developer</h4>
         <p className="text-accent text-sm md:text-base font-semibold mb-4">
-          Tech Innovators Inc.
+          Independent Project Experience
         </p>
         <div className="text-foreground-muted text-sm md:text-base leading-relaxed space-y-4">
           <p>
-            Leading the integration of Large Language Models (LLMs) into enterprise SaaS products. 
-            Designed and implemented a scalable retrieval-augmented generation (RAG) pipeline 
-            that reduced hallucination rates by 40% and improved customer satisfaction.
+            Hands-on experience building and working on cybersecurity-focused software, with a focus on identifying suspicious activity, security monitoring, threat detection, and developing practical security solutions.
+          </p>
+          <p>
+            Built GuardNet, an insider-threat detection system designed to monitor employee activity, identify suspicious behavior, calculate risk scores, and provide real-time security alerts.
           </p>
           <div className="flex flex-wrap gap-2 mt-4">
-            <span className="text-xs px-2 py-1 rounded-md bg-white/5 border border-white/10 text-foreground-muted">Python</span>
-            <span className="text-xs px-2 py-1 rounded-md bg-white/5 border border-white/10 text-foreground-muted">TensorFlow</span>
-            <span className="text-xs px-2 py-1 rounded-md bg-white/5 border border-white/10 text-foreground-muted">Next.js</span>
+            {["Cybersecurity", "Threat Detection", "Security Monitoring", "Python", "Web Development", "Burp Suite"].map((tech) => (
+              <span key={tech} className="text-xs px-2 py-1 rounded-md bg-white/5 border border-white/10 text-foreground-muted">
+                {tech}
+              </span>
+            ))}
           </div>
         </div>
       </div>
     ),
   },
   {
-    title: "2023",
+    title: "Oct 2025",
     content: (
       <div>
-        <h4 className="text-xl font-bold text-foreground mb-1">Full Stack Developer</h4>
+        <h4 className="text-xl font-bold text-foreground mb-1">Cyber Job Simulation</h4>
         <p className="text-accent text-sm md:text-base font-semibold mb-4">
-          Creative Web Agency
+          Deloitte Australia
         </p>
         <div className="text-foreground-muted text-sm md:text-base leading-relaxed space-y-4">
           <p>
-            Developed high-performance e-commerce platforms and interactive marketing sites for Fortune 500 clients. 
-            Architected the migration from a monolithic legacy system to a serverless Next.js architecture, 
-            improving PageSpeed scores from 45 to 98.
+            Completed a virtual job simulation provided by Forage. 
+            <br />
+            <span className="text-xs uppercase tracking-wider font-semibold text-foreground-muted/70">Credential ID: Hm8coGTXSaqGCzK53</span>
           </p>
           <div className="flex flex-wrap gap-2 mt-4">
-            <span className="text-xs px-2 py-1 rounded-md bg-white/5 border border-white/10 text-foreground-muted">React</span>
-            <span className="text-xs px-2 py-1 rounded-md bg-white/5 border border-white/10 text-foreground-muted">TypeScript</span>
-            <span className="text-xs px-2 py-1 rounded-md bg-white/5 border border-white/10 text-foreground-muted">Node.js</span>
+            <span className="text-xs px-2 py-1 rounded-md bg-accent/10 border border-accent/20 text-accent font-medium">Virtual Job Simulation</span>
+            <span className="text-xs px-2 py-1 rounded-md bg-white/5 border border-white/10 text-foreground-muted">Forage</span>
           </div>
         </div>
       </div>
     ),
   },
   {
-    title: "2021",
+    title: "Oct 2025",
     content: (
       <div>
-        <h4 className="text-xl font-bold text-foreground mb-1">Frontend Developer</h4>
+        <h4 className="text-xl font-bold text-foreground mb-1">Data Analytics Job Simulation</h4>
         <p className="text-accent text-sm md:text-base font-semibold mb-4">
-          Startup Hub
+          Deloitte Australia
         </p>
         <div className="text-foreground-muted text-sm md:text-base leading-relaxed space-y-4">
           <p>
-            Built responsive and accessible user interfaces from scratch using React and Tailwind CSS. 
-            Collaborated closely with UX designers to implement complex animations and data visualizations 
-            for an analytics dashboard used by over 10,000 daily active users.
+            Completed a virtual job simulation provided by Forage.
+            <br />
+            <span className="text-xs uppercase tracking-wider font-semibold text-foreground-muted/70">Credential ID: EXwfBtWHhL5nDrnGp</span>
           </p>
           <div className="flex flex-wrap gap-2 mt-4">
-            <span className="text-xs px-2 py-1 rounded-md bg-white/5 border border-white/10 text-foreground-muted">JavaScript</span>
-            <span className="text-xs px-2 py-1 rounded-md bg-white/5 border border-white/10 text-foreground-muted">Tailwind CSS</span>
-            <span className="text-xs px-2 py-1 rounded-md bg-white/5 border border-white/10 text-foreground-muted">Figma</span>
+            <span className="text-xs px-2 py-1 rounded-md bg-accent/10 border border-accent/20 text-accent font-medium">Virtual Job Simulation</span>
+            <span className="text-xs px-2 py-1 rounded-md bg-white/5 border border-white/10 text-foreground-muted">Forage</span>
           </div>
         </div>
       </div>

@@ -71,8 +71,8 @@ export function Hero() {
           transition={{ duration: 0.5, delay: 0.4 }}
           className="mt-6 text-base sm:text-lg text-foreground-muted max-w-xl leading-relaxed"
         >
-          I design and build modern web applications and AI-powered solutions
-          that are fast, accessible, and built to last.
+          I build modern web applications and AI-powered solutions
+          that are fast, scalable, and user-focused.
         </motion.p>
 
         {/* CTAs */}

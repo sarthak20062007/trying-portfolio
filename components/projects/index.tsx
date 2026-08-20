@@ -103,11 +103,11 @@ const Skeleton = ({ className }: { className?: string }) => (
 
 const items = [
   {
-    title: "AI-Powered Analytics Dashboard",
-    description: "A comprehensive dashboard that leverages machine learning to predict user behavior and visualize complex data sets in real-time.",
+    title: "GuardNet — Insider Threat Detection System",
+    description: "An insider-threat detection system that monitors employee activity, identifies suspicious behavior, generates risk scores, and provides real-time security alerts.",
     header: <Skeleton className="bg-gradient-to-br from-blue-900/50 to-purple-900/50" />,
     icon: <IconClipboardCopy className="h-4 w-4 text-neutral-500" />,
-    techStack: ["Next.js", "React", "Python", "TensorFlow", "Tailwind CSS"],
+    techStack: ["Python", "Machine Learning", "Next.js", "PostgreSQL", "Tailwind CSS"],
     githubLink: "#",
     liveLink: "#",
   },

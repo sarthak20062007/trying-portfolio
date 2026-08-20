@@ -85,20 +85,19 @@ export function About() {
             </div>
 
             <p className="text-base sm:text-lg leading-relaxed">
-              I&apos;m a Full Stack Developer and AI enthusiast who loves
-              building products that are not only functional but genuinely
-              enjoyable to use. I focus on writing clean, performant code and
-              creating interfaces that feel intuitive and polished.
+              I&apos;m a developer deeply interested in Full Stack Development, AI, and cybersecurity. 
+              I love building practical software projects that solve real problems, focusing on writing 
+              clean, performant code and creating intuitive user experiences.
             </p>
             <p className="text-base sm:text-lg leading-relaxed">
-              Whether it&apos;s a responsive web app, an AI-powered tool, or a
-              complete product from concept to deployment — I bring a combination
-              of technical depth and design sensibility to every project.
+              Whether I&apos;m developing a responsive web application, integrating AI capabilities, or 
+              exploring secure coding practices, I bring a strong combination of technical depth and 
+              curiosity to every project.
             </p>
             <p className="text-base sm:text-lg leading-relaxed">
-              When I&apos;m not coding, you&apos;ll find me exploring new
-              technologies, contributing to open source, or helping clients turn
-              their vision into reality as a freelancer.
+              When I&apos;m not coding, you&apos;ll find me exploring emerging technologies, expanding 
+              my knowledge in cybersecurity, or experimenting with new tools to improve my 
+              development workflow.
             </p>
           </motion.div>
 
