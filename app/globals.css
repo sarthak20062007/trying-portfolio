@@ -236,6 +236,29 @@ p {
   border-radius: var(--radius-sm);
 }
 
+/* ===== SKILLS LOGO LOOP ===== */
+
+.skills-loop .logoloop__node {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.5rem 1.25rem;
+  border-radius: 9999px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(255, 255, 255, 0.03);
+  color: var(--foreground-muted);
+  font-family: var(--font-body);
+  font-size: 0.875rem;
+  font-weight: 500;
+  white-space: nowrap;
+  transition: all 0.3s ease;
+}
+
+.skills-loop .logoloop__item:hover .logoloop__node {
+  border-color: rgba(255, 255, 255, 0.15);
+  background: rgba(255, 255, 255, 0.06);
+  color: var(--foreground);
+}
+
 /* ===== SHADCN BASE LAYER ===== */
 
 @layer base {

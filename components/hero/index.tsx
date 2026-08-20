@@ -4,6 +4,7 @@ import React, { useEffect, useState } from "react";
 import dynamic from "next/dynamic";
 import { motion } from "motion/react";
 import { ArrowRight, Send } from "lucide-react";
+import { MagneticButton } from "@/components/ui/magnetic-button";
 
 // Dynamic import to avoid SSR issues with WebGL
 const Aurora = dynamic(() => import("@/components/ui/aurora"), {
@@ -82,22 +83,26 @@ export function Hero() {
           className="mt-10 flex flex-col sm:flex-row items-center gap-4"
         >
           {/* Primary CTA */}
-          <a
-            href="#projects"
-            className="group inline-flex items-center gap-2 px-7 py-3.5 rounded-full bg-accent text-white text-sm font-semibold transition-all duration-300 hover:bg-accent-hover hover:shadow-lg hover:shadow-accent/25 hover:gap-3"
-          >
-            View My Work
-            <ArrowRight className="h-4 w-4 transition-transform duration-300 group-hover:translate-x-0.5" />
-          </a>
+          <MagneticButton>
+            <a
+              href="#projects"
+              className="group inline-flex items-center gap-2 px-7 py-3.5 rounded-full bg-accent text-white text-sm font-semibold transition-all duration-300 hover:bg-accent-hover hover:shadow-lg hover:shadow-accent/25 hover:gap-3"
+            >
+              View My Work
+              <ArrowRight className="h-4 w-4 transition-transform duration-300 group-hover:translate-x-0.5" />
+            </a>
+          </MagneticButton>
 
           {/* Secondary CTA */}
-          <a
-            href="#contact"
-            className="group inline-flex items-center gap-2 px-7 py-3.5 rounded-full border border-white/10 text-foreground text-sm font-semibold transition-all duration-300 hover:bg-white/5 hover:border-white/20 hover:gap-3"
-          >
-            Get In Touch
-            <Send className="h-4 w-4 transition-transform duration-300 group-hover:translate-x-0.5" />
-          </a>
+          <MagneticButton>
+            <a
+              href="#contact"
+              className="group inline-flex items-center gap-2 px-7 py-3.5 rounded-full border border-white/10 text-foreground text-sm font-semibold transition-all duration-300 hover:bg-white/5 hover:border-white/20 hover:gap-3"
+            >
+              Get In Touch
+              <Send className="h-4 w-4 transition-transform duration-300 group-hover:translate-x-0.5" />
+            </a>
+          </MagneticButton>
         </motion.div>
 
         {/* Scroll indicator */}
